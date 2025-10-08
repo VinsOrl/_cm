@@ -15,7 +15,8 @@
 Line–Line Intersection
 
 Solve simultaneous equations:
-*Using determinant method (Cramer’s rule).*
+Using determinant method (Cramer’s rule).
+
 \[
 a_1 x + b_1 y + c_1 = 0
 \]  
