@@ -10,3 +10,5 @@
 | Perpendicular Foot         | Projection formula            | `perpendicular_foot()`                    |
 | Pythagoras Verification    | Distance formula              | `verify_pythagoras()`                     |
 | Transformations            | Linear algebra & trigonometry | `Triangle.translate`, `.scale`, `.rotate` |
+
+R(θ)=[cosθsinθ​−sinθcosθ​]
