@@ -1,6 +1,7 @@
 **Mathematics Behind the Programs**
 
---Summary Table--
+*Summary Table*
+
 | Operation                  | Math Concept                  | Program Part                              |
 | -------------------------- | ----------------------------- | ----------------------------------------- |
 | Line-Line Intersection     | Solve linear equations        | `intersect_lines()`                       |
