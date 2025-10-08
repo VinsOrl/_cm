@@ -1,62 +1,5 @@
 **Mathematics Behind the Programs**
 
-Line–Line Intersection
-
-Solve simultaneous equations:
-
-𝑎
-1
-𝑥
-+
-𝑏
-1
-𝑦
-+
-𝑐
-1
-=
-0
-a
-1
-	​
-
-x+b
-1
-	​
-
-y+c
-1
-	​
-
-=0
-𝑎
-2
-𝑥
-+
-𝑏
-2
-𝑦
-+
-𝑐
-2
-=
-0
-a
-2
-	​
-
-x+b
-2
-	​
-
-y+c
-2
-	​
-
-=0
-
-Using determinant method (Cramer’s rule).
-
 *Summary Table*
 
 | Operation                  | Math Concept                  | Program Part                              |
@@ -68,4 +11,5 @@ Using determinant method (Cramer’s rule).
 | Pythagoras Verification    | Distance formula              | `verify_pythagoras()`                     |
 | Transformations            | Linear algebra & trigonometry | `Triangle.translate`, `.scale`, `.rotate` |
 
-R(θ)=[cosθsinθ​−sinθcosθ​]
+“a1​x+b1​y+c1​\=0 a2x+b2y+c2\=0a\_2x + b\_2y + c\_2 = 0a2​x+b2​y+c2​\=0”
+
