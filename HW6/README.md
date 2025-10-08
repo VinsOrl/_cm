@@ -11,5 +11,12 @@
 | Pythagoras Verification    | Distance formula              | `verify_pythagoras()`                     |
 | Transformations            | Linear algebra & trigonometry | `Triangle.translate`, `.scale`, `.rotate` |
 
-“a1​x+b1​y+c1​\=0 a2x+b2y+c2\=0a\_2x + b\_2y + c\_2 = 0a2​x+b2​y+c2​\=0”
+\[
+a_1 x + b_1 y + c_1 = 0
+\]  
+\[
+a_2 x + b_2 y + c_2 = 0
+\]
+
+---
 
