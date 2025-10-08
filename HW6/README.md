@@ -27,5 +27,14 @@ a_2 x + b_2 y + c_2 = 0
 ---
 
 
-“### **Circle–Circle Intersection** Use geometric relations: * ddd = distance between centers * Apply the law of cosines to find intersection chord. * Solve for two intersection points using geometry.”
+Circle–Circle Intersection
+
+Use geometric relations:
+
+𝑑
+d = distance between centers
+
+Apply the law of cosines to find intersection chord.
+
+Solve for two intersection points using geometry.
 
