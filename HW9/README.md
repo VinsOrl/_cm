@@ -37,7 +37,7 @@ $$\begin{bmatrix} 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end{bmatrix} \begin{b
 ## 3. Determinants & LU Decomposition
 
 * **Determinant ($\det(A)$):** Geometrically, this is the signed volume scaling factor of the transformation.
-* **Recursive Calculation:** Uses cofactor expansion (Laplace expansion): 
+* **Recursive Calculation:** Uses cofactor expansion (Laplace expansion):
   $$\det(A) = \sum_{j=1}^{n} (-1)^{1+j} a_{1,j} M_{1,j}$$
 * **LU Decomposition:** Factoring a matrix into $A = LU$ (Lower and Upper triangular).
     * **Determinant via LU:** $\det(A) = \det(L) \times \det(U)$. Since $L$ has $1$s on the diagonal, $\det(A) = \prod u_{ii}$.
