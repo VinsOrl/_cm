@@ -64,4 +64,4 @@ To reach the reliability promised by Shannon, we use **Error Correcting Codes (E
 1. Ensure you have `numpy` installed: `pip install numpy`.
 2. Run the implementation script:
    ```bash
-   python information_theory_project.py
+   python <Project_Name.py>
