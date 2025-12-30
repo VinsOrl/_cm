@@ -77,3 +77,17 @@ $$A = U \Sigma V^T$$
 * **SVD Connection:** PCA is equivalent to SVD performed on centered data. The principal components are the eigenvectors of the covariance matrix $C = \frac{1}{n-1} X^T X$.
 
 ---
+
+### POINT 2 & 3 SCREENSHOT EXPLANATION MATH
+![Geometric Transformations](1.png)
+
+![Determinants & LU Decomposition](2.png)
+
+---
+
+### ERROR MATH EXPLANATION
+* **The reason** The Math Code works on my VS Code but it doesn't work on Github (ERROR). it works in VS Code but fails on GitHub is that GitHub’s Markdown parser is significantly more restrictive, especially when math is used inside bullet points or contains certain characters like underscores.
+
+* **In VS Code** the math engine is often "lazy" and fixes formatting for you. GitHub requires precise syntax to prevent its Markdown parser from breaking the LaTeX before it can even render.
+
+---
