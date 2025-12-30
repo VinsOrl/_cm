@@ -26,35 +26,19 @@ This project implements core Linear Algebra algorithms from scratch and provides
 
 Matrices act as functions that transform vectors. Common 2D transformations include:
 
-* **Scaling:**
-  $$
-  \begin{bmatrix} s_x & 0 \\\\ 0 & s_y \end{bmatrix}
-  $$
+* **Scaling:** $\begin{bmatrix} s_x & 0 \\ 0 & s_y \end{bmatrix}$
+* **Rotation:** $\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$
+* **Translation:** Requires Homogeneous Coordinates (adding a dummy dimension):
 
-* **Rotation:**
-  $$
-  \begin{bmatrix} \cos\theta & -\sin\theta \\\\ \sin\theta & \cos\theta \end{bmatrix}
-  $$
-
-* **Translation:** Requires Homogeneous Coordinates (adding a dummy dimension) to remain a linear operation:
-  $$
-  \begin{bmatrix} 1 & 0 & t_x \\\\ 0 & 1 & t_y \\\\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\\\ y \\\\ 1 \end{bmatrix} = \begin{bmatrix} x + t_x \\\\ y + t_y \\\\ 1 \end{bmatrix}
-  $$
-
----
+$$\begin{bmatrix} 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end{bmatrix}\begin{bmatrix} x \\ y \\ 1 \end{bmatrix}=\begin{bmatrix} x + t_x \\ y + t_y \\ 1 \end{bmatrix}$$
 
 ## 3. Determinants & LU Decomposition
 
-* **Determinant ($\det(A)$):** Geometrically, this is the signed volume scaling factor of the transformation.
-* **Recursive Calculation:** Uses cofactor expansion (Laplace expansion):
-  $$
-  \det(A) = \sum_{j=1}^{n} (-1)^{1+j} a_{1,j} M_{1,j}
-  $$
-* **LU Decomposition:** Factoring a matrix into $A = LU$ (Lower and Upper triangular).
-    * **Determinant via LU:** $\det(A) = \det(L) \times \det(U)$. Since $L$ has $1$s on the diagonal:
-      $$
-      \det(A) = \prod u_{ii}
-      $$
+* **Determinant ($\det(A)$):** Geometrically, the signed volume scaling factor.
+* **Recursive Calculation:** Uses cofactor expansion:
+  $$\det(A) = \sum_{j=1}^{n} (-1)^{1+j} a_{1,j} M_{1,j}$$
+* **LU Decomposition:** Factoring a matrix into $A = LU$:
+    * **Determinant via LU:** $\det(A) = \prod u_{ii}$.
 
 ---
 
