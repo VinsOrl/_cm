@@ -230,7 +230,7 @@ To understand a black hole, you have to look at its layers:
 Here's photo of photon implementation in my project:
 
 <p align="center">
-  <img src="photon_expl.png" width="30%">
+  <img src="img_pkg\photon_expl.png" width="30%">
 </p>
 
 At start-up I used only one photon to simulate the formula, and then I add 10 more photons to have full visualization of photon that called Multi-Photon Trajectories beam.
@@ -275,44 +275,44 @@ def get_accel(self, p, v):
 
 The first ever project demo test: `test1.png`
 <p align="center">
-  <img src="test1.png" width="30%">
+  <img src="img_pkg\test1.png" width="30%">
 </p>
 
 * Testing 1 gemini AI detailed visualization: `test1 viz gemini.png`
 <p align="center">
-  <img src="test1_viz_gemini.png" width="30%">
+  <img src="img_pkg\test1_viz_gemini.png" width="30%">
 </p>
 
 After revisions and demo testing: `test2.png`
 <p align="center">
-  <img src="test2.png" width="30%">
+  <img src="img_pkg\test2.png" width="30%">
 </p>
 
 **Completed Demo:**
 * **Mass 1x Sun:** (FYI: Our Sun Mass in Kilogram is $1.989 \times 10^{30}$)
   `1.0_Smass_toBH.png`
 <p align="center">
-  <img src="1.0_Smass_toBH.png" width="30%">
+  <img src="img_pkg\1.0_Smass_toBH.png" width="30%">
 </p>
 
 * **Mass 10x Suns:** `test3.png`
 <p align="center">
-  <img src="test3.png" width="30%">
+  <img src="img_pkg\test3.png" width="30%">
 </p>
 
 * **Mass 1000x Suns:** `1000.0_Smass_toBH_1.png`, `1000.0_Smass_toBH_2.png`, `1000.0_Smass_toBH_3.png`, `1000.0_Smass_toBH_4.png`
 <p align="center">
-  <img src="1000.0_Smass_toBH_1.png" width="30%">&nbsp;&nbsp;
-  <img src="1000.0_Smass_toBH_2.png" width="30%">&nbsp;&nbsp;
-  <img src="1000.0_Smass_toBH_3.png" width="30%">&nbsp;&nbsp;
-  <img src="1000.0_Smass_toBH_4.png" width="30%">
+  <img src="img_pkg\1000.0_Smass_toBH_1.png" width="30%">&nbsp;&nbsp;
+  <img src="img_pkg\1000.0_Smass_toBH_2.png" width="30%">&nbsp;&nbsp;
+  <img src="img_pkg\1000.0_Smass_toBH_3.png" width="30%">&nbsp;&nbsp;
+  <img src="img_pkg\1000.0_Smass_toBH_4.png" width="30%">
 </p>
 
 ### Problem Met
 **Demo: Supermassive Blackhole (Mass 4 Million x Suns)**
 `4M.0_Smass_toBH.png`
 <p align="center">
-  <img src="4M.0_Smass_toBH.png" width="30%">
+  <img src="img_pkg\4M.0_Smass_toBH.png" width="30%">
 </p>
 
 **Why it looks like photons didn’t move at all?**
@@ -348,7 +348,7 @@ When you set `SOLAR_MASSES = 4000000.0`, $R_s$ increases significantly. Because 
 **Fixed Demo:**
 * `4M.0_Smass_toBH_1.png`
 <p align="center">
-  <img src="4M.0_Smass_toBH_1.png" width="30%">
+  <img src="img_pkg\4M.0_Smass_toBH_1.png" width="30%">
 </p>
 
 ## 8. References
