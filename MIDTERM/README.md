@@ -177,12 +177,12 @@ ax.tick_params(axis='both', colors='white', labelsize=8)
 **Explanation of the properties used:**
 
 * **alpha:** This is the most important parameter for transparency. A value of 1.0 is solid, and 0.0 is completely invisible. You are using 0.3 and 0.5 to give it that "ghostly" scientific look.
-$$C_{out}=\alpha C_{src}+(1-\alpha)C_{dest}$$
+    $$C_{out}=\alpha C_{src}+(1-\alpha)C_{dest}$$
 
 * **ax.spines:** In Matplotlib, "spines" are the four lines that form the rectangle around the plot. By looping through values (), you apply the same color and transparency to all four sides at once.
 
 * **ax.tick_params:** This is a "one-stop shop" for styling the axis markers (the tiny lines) and the labels (the numbers).
-$$x_{screen~n}=\frac{x-x_{min}}{x_{max~x}-x_{min}}$$
+    $$x_{screen~n}=\frac{x-x_{min}}{x_{max~x}-x_{min}}$$
 
 * **linestyle=':':** This creates the dotted grid instead of a solid line, which helps the photon paths stand out more clearly.
 
