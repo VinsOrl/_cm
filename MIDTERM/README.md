@@ -177,12 +177,14 @@ ax.tick_params(axis='both', colors='white', labelsize=8)
 **Explanation of the properties used:**
 
 * **alpha:** This is the most important parameter for transparency. A value of 1.0 is solid, and 0.0 is completely invisible. You are using 0.3 and 0.5 to give it that "ghostly" scientific look.
-    $$C_{out}=\alpha C_{src}+(1-\alpha)C_{dest}$$
+
+$$C_{out}=\alpha C_{src}+(1-\alpha)C_{dest}$$
 
 * **ax.spines:** In Matplotlib, "spines" are the four lines that form the rectangle around the plot. By looping through values (), you apply the same color and transparency to all four sides at once.
 
 * **ax.tick_params:** This is a "one-stop shop" for styling the axis markers (the tiny lines) and the labels (the numbers).
-    $$x_{screen~n}=\frac{x-x_{min}}{x_{max~x}-x_{min}}$$
+
+$$x_{screen\ n} = \frac{x - x_{min}}{x_{max\ x} - x_{min}}$$
 
 * **linestyle=':':** This creates the dotted grid instead of a solid line, which helps the photon paths stand out more clearly.
 
@@ -268,44 +270,44 @@ def get_accel(self, p, v):
 
 The first ever project demo test: `test1.png`
 <p align="center">
-  <img src="test1.png" width="18%">
+  <img src="test1.png" width="30%">
 </p>
 
 * Testing 1 gemini AI detailed visualization: `test1 viz gemini.png`
 <p align="center">
-  <img src="test1_viz_gemini.png" width="18%">
+  <img src="test1_viz_gemini.png" width="30%">
 </p>
 
 After revisions and demo testing: `test2.png`
 <p align="center">
-  <img src="test2.png" width="18%">
+  <img src="test2.png" width="30%">
 </p>
 
 **Completed Demo:**
 * **Mass 1x Sun:** (FYI: Our Sun Mass in Kilogram is $1.989 \times 10^{30}$)
   `1.0_Smass_toBH.png`
 <p align="center">
-  <img src="1.0_Smass_toBH.png" width="18%">
+  <img src="1.0_Smass_toBH.png" width="30%">
 </p>
 
 * **Mass 10x Suns:** `test3.png`
 <p align="center">
-  <img src="test3.png" width="18%">
+  <img src="test3.png" width="30%">
 </p>
 
 * **Mass 1000x Suns:** `1000.0_Smass_toBH_1.png`, `1000.0_Smass_toBH_2.png`, `1000.0_Smass_toBH_3.png`, `1000.0_Smass_toBH_4.png`
 <p align="center">
-  <img src="1000.0_Smass_toBH_1.png" width="18%">&nbsp;&nbsp;
-  <img src="1000.0_Smass_toBH_2.png" width="18%">&nbsp;&nbsp;
-  <img src="1000.0_Smass_toBH_3.png" width="18%">&nbsp;&nbsp;
-  <img src="1000.0_Smass_toBH_4.png" width="18%">
+  <img src="1000.0_Smass_toBH_1.png" width="30%">&nbsp;&nbsp;
+  <img src="1000.0_Smass_toBH_2.png" width="30%">&nbsp;&nbsp;
+  <img src="1000.0_Smass_toBH_3.png" width="30%">&nbsp;&nbsp;
+  <img src="1000.0_Smass_toBH_4.png" width="30%">
 </p>
 
 ### Problem Met
 **Demo: Supermassive Blackhole (Mass 4 Million x Suns)**
 `4M.0_Smass_toBH.png`
 <p align="center">
-  <img src="4M.0_Smass_toBH.png" width="18%">
+  <img src="4M.0_Smass_toBH.png" width="30%">
 </p>
 
 **Why it looks like photons didn’t move at all?**
@@ -341,7 +343,7 @@ When you set `SOLAR_MASSES = 4000000.0`, $R_s$ increases significantly. Because 
 **Fixed Demo:**
 * `4M.0_Smass_toBH_1.png`
 <p align="center">
-  <img src="4M.0_Smass_toBH_1.png" width="18%">
+  <img src="4M.0_Smass_toBH_1.png" width="30%">
 </p>
 
 ## 8. References
