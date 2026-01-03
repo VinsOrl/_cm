@@ -4,7 +4,7 @@ from matplotlib.animation import FuncAnimation
 import matplotlib.patches as patches
 
 # --- ADJUSTABLE PARAMETERS ---
-SOLAR_MASSES = 4000000.0  # 1.0 = Our Sun, 10.0 = Large Star, 4000000.0 = Supermassive
+SOLAR_MASSES = 1.0  # 1.0 = Our Sun, 10.0 = Large Star, 4000000.0 = Supermassive
 G = 6.674e-11
 M = SOLAR_MASSES * 1.989e30  # Actual mass in kg
 c = 3e8                      # Speed of light
