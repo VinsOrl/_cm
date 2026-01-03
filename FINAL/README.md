@@ -152,6 +152,26 @@ A compiler pipeline that translates Ordinary Differential Equations (ODEs) into 
 
 ---
 
+## Technical Requirements
+
+
+* **Python 3.x**
+* **NumPy:** `pip install numpy`
+* **Standard Libraries:** `math`, `cmath`, `os`
+
+## References Link
+* [HW 1](https://github.com/VinsOrl/_cm/blob/master/HW1/README.md) use Gemini
+* [HW 2](https://github.com/VinsOrl/_cm/blob/master/HW2/README.md) use Gemini
+* [HW 3](https://github.com/VinsOrl/_cm/blob/master/HW3/README.md) use Gemini
+* [HW 4](https://github.com/VinsOrl/_cm/blob/master/HW4/README.md) use Gemini
+* [HW 5](https://github.com/VinsOrl/_cm/blob/master/HW5/README.md) use Gemini
+* [HW 6](https://github.com/VinsOrl/_cm/blob/master/HW6/README.md) use Gemini
+* [HW 7](https://github.com/VinsOrl/_cm/blob/master/HW7/README.md)use Gemini
+* [HW 8](https://github.com/VinsOrl/_cm/blob/master/HW8/README.md) use Gemini
+* [HW 9](https://github.com/VinsOrl/_cm/blob/master/HW9/README.md) use Gemini
+* [HW 10](https://github.com/VinsOrl/_cm/blob/master/HW10/README.md) use Gemini
+* [HW 11](https://github.com/VinsOrl/_cm/blob/master/HW11/README.md) use Gemini
+
 ## Mid-Term Project : Implementation of Blackhole 
 More about Implementation of Blackhole and docomentation
 * [Python Implementation](https://github.com/VinsOrl/_cm/blob/master/MIDTERM/project.py)
@@ -159,10 +179,3 @@ More about Implementation of Blackhole and docomentation
 * [AI Documentation](https://gemini.google.com/share/22d3f5c67f33)
 
 ---
-
-## Technical Requirements
-
-
-* **Python 3.x**
-* **NumPy:** `pip install numpy`
-* **Standard Libraries:** `math`, `cmath`, `os`
