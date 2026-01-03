@@ -5,22 +5,6 @@
 
 ---
 
-## 📋 Table of Contents
-1. [Calculus: The Fundamental Theorem](#hw-1---calculus-the-fundamental-theorem-ftc)
-2. [Algebra: Quadratic & Complex Roots](#hw-2---algebra-the-quadratic-formula-and-complex-roots)
-3. [Foundations: Information Theory & Statistics](#hw-3---mathematical-foundations--computational-algorithms)
-4. [Linear Algebra: Companion Matrix Root Finding](#hw-4---numerical-root-finding-the-companion-matrix-method)
-5. [Finite Fields: GF(p) Arithmetic](#hw-5---finite-field-arithmetic-gfp)
-6. [Galois Fields: Advanced Implementation](#hw-6---finite-field-arithmetic-galois-field-gfp)
-7. [Geometry: Intersections & Transformations](#mathematics-behind-the-programs)
-8. [Probability: Hypothesis Testing](#hw-7---probability-and-statistics-the-mathematical-principles)
-9. [Information Theory: Coding Toolkit](#hw-8---information-theory--coding-toolkit)
-10. [Linear Algebra Lab: SVD & PCA](#hw-9---linear-algebra-lab-concepts-and-implementations)
-11. [Fourier Transform: Signal Processing](#hw-10---fourier-transform-theory-and-principles)
-12. [Compiler Design: ODE to RISC-V](#ode-to-risc-v-compiler-project-documentation-explanation)
-
----
-
 ## HW 1 - Calculus: The Fundamental Theorem (FTC)
 
 
@@ -84,7 +68,7 @@ $$
 
 ---
 
-## HW 5 & 6 - Finite Field Arithmetic (Galois Field $GF(p)$)
+## HW 5 - Finite Field Arithmetic (Galois Field $GF(p)$)
 
 
 Arithmetic operations performed within a finite set $\{0, 1, \dots, p-1\}$ modulo a prime $p$.
@@ -97,7 +81,7 @@ Arithmetic operations performed within a finite set $\{0, 1, \dots, p-1\}$ modul
 
 ---
 
-## Mathematics Behind the Programs (Geometry)
+## HW 6 - Mathematics Behind the Programs (Geometry)
 
 
 ### Geometric Intersections
@@ -155,7 +139,7 @@ Arithmetic operations performed within a finite set $\{0, 1, \dots, p-1\}$ modul
 
 ---
 
-## ODE-to-RISC-V Compiler: Project Documentation Explanation
+## HW 11 - ODE-to-RISC-V Compiler: Project Documentation Explanation
 
 
 ### Objective
